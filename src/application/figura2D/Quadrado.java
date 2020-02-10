@@ -14,4 +14,9 @@ public class Quadrado extends Figura2D {
 		this.lado = lado;
 	}
 
+	@Override
+	public double calcularArea() {
+		return lado * lado;
+	}
+
 }
